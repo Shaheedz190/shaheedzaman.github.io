@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaheed Zaman | Portfolio</title>
 
+    <!-- Arial styling requested -->
+    <style>
+        :root {
+            --bg: #f5f7fb;
+            --card: #ffffff;
+            --primary: #2563eb;
+            --text: #1f2937;
+            --muted: #6b7280;
+            --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            background: var(--card);
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+
+        .project-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.2s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.25rem;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--muted);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shaheed Zaman</h1>
+        <p>AP Computer Science Student | Aspiring Software Developer</p>
+    </header>
+
+    <main class="container">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi! I'm Shaheed Zaman, a high school student currently studying
+                AP Computer Science. I enjoy learning programming, building web
+                applications, and exploring new technologies. My goal is to
+                continue developing my skills through hands-on projects and
+                real-world problem solving.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project-card">
+                <h3>GitHub Portfolio Repository</h3>
+                <p>
+                    Explore my coding projects, experiments, and coursework on
+                    GitHub. I regularly update my repositories as I learn new
+                    technologies and build new applications.
+                </p>
+
+                <a class="btn"
+                   href="https://shaheedzaman.github.io"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Visit My GitHub Site
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shaheed Zaman. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
